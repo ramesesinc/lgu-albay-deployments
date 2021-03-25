@@ -5,6 +5,6 @@ app:
     "entity.app.context" : "etracs25"
 
   modules:
-    - { order: 210, version: 2.50, file: "modules/entity/rameses-enterprise-entity.jar" }
-    - { order: 211, version: 2.50, file: "modules/entity/rameses-enterprise-entity-tool.jar" }
-    - { order: 212, version: 2.50, file: "modules/entity/rameses-gov-etracs-entity.jar" }
+    - { order: 200, version: 2.50, file: "modules/entity/rameses-enterprise-entity.jar" }
+    - { order: 201, version: 2.50, file: "modules/entity/rameses-enterprise-entity-tool.jar" }
+    - { order: 202, version: 2.50, file: "modules/entity/rameses-gov-etracs-entity.jar" }
