@@ -1,28 +1,28 @@
 [Ubuntu Server]
-IP   : 
-User : 
-Pass : 
+IP   : passoalbay
+User : 192.168.0.2
+Pass : @albaypasso_2021
 
 
 [DB Server]
-IP   : 
-User :
-Pass : 
+IP   : 192.168.0.2
+User : root
+Pass : P@ssw0rd#
 
 
 [Webmin]
-User : 
-Pass : 
+User : passoalbay
+Pass : @albaypasso_2021
 
 
 [Portainer]
-User :  admin
-Pass :  p@ssw0rd
+User : admin
+Pass : p@ssw0rd
 
 
 [Samba Shared Folder]
-User : 
-Pass : 
+User : passoalbay
+Pass : p@ssw0rd
 
 
 [Docker Images]
