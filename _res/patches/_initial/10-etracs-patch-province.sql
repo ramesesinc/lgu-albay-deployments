@@ -116,6 +116,15 @@ drop table if exists ztmp_bpls_sys_rule_actiondef
 ;
 
 
+DELETE from sys_usergroup_member where usergroup_objid like 'BPLS.%' 
+; 
+delete from sys_usergroup_permission where usergroup_objid in (
+	select objid from sys_usergroup where objid like 'BPLS.%' 
+)
+;
+delete from sys_usergroup where objid like 'BPLS.%'
+; 
+
 
 
 INSERT INTO `sys_wf_node` (`name`, `processname`, `title`, `nodetype`, `idx`, `salience`, `domain`, `role`, `properties`, `ui`, `tracktime`) VALUES ('start', 'cancelledfaas', 'Start', 'start', '1', NULL, 'RPT', NULL, NULL, NULL, NULL);
